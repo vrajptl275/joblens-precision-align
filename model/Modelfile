@@ -1,0 +1,37 @@
+FROM ./resume_matcher_q4_k_m.gguf
+
+TEMPLATE """Below is a resume and a job posting. Evaluate the match and respond in the required format.
+
+Evaluate on:
+1. SKILLS — List every skill that appears in BOTH the resume AND the job requirements as a Matching Skill. Even if the candidate's level is basic, still list it. Only put a skill under Missing Skills if the resume does not mention it at all.
+2. EXPERIENCE LEVEL — Hard requirement. If candidate clearly doesn't meet it, score must drop below 40.
+3. LOCATION — Soft factor only, max 10 point penalty.
+
+Scoring guide (follow strictly):
+- 90-100: All or almost all required skills match AND experience matches AND location matches
+- 75-89: Most skills match AND experience matches (minor skill gaps or soft location mismatch)
+- 50-74: Some skills match OR experience is partial OR significant skill gaps
+- 25-49: Few skills match OR experience clearly not met
+- Below 25: Almost no skills match AND experience not met
+
+Suggestion guide:
+- If Match Score is 80 or above: suggest how the candidate can STAND OUT (e.g. highlight a specific project, add a certification, tailor their resume for this role)
+- If Match Score is below 80: suggest the single most important skill or gap to address
+
+Always respond in this EXACT format (6 lines, no extras):
+Match Score: <number>/100
+Matching Skills: <comma-separated or "None">
+Missing Skills: <comma-separated or "None">
+Experience Match: <Yes | Partial | No> — <one-line reason>
+Location Note: <one-line comment>
+Suggestion: <one actionable sentence>
+
+### Resume and Job:
+{{ .Prompt }}
+
+### Response:
+"""
+
+PARAMETER stop "### Resume and Job:"
+PARAMETER num_predict 400
+PARAMETER temperature 0.3

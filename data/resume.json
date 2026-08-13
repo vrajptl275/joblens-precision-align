@@ -1,0 +1,202 @@
+[
+    {
+        "id": "resume_01",
+        "type": "strong_ml_ai",
+        "text": "B.Tech Computer Engineering student. Skills: Python, Flask, Gradio, OpenCV, scikit-learn, SQL. Projects: Smart Attendance System (face recognition), Driver Drowsiness Detection (MediaPipe, YOLOv11), JobLens India (NLP job analytics). Completed a Data Science internship at Oasis Infobyte (AICTE OIB-SIP)."
+    },
+    {
+        "id": "resume_02",
+        "type": "strong_ml_ai",
+        "text": "B.Tech Computer Engineering student. Skills: Python, TensorFlow, PyTorch, OpenCV, NumPy. Built a custom YOLOv11 object detection model trained on 2000+ images and a 5-model GAN-based image restoration pipeline (LaMa, Real-ESRGAN). Strong interest in computer vision and deep learning research."
+    },
+    {
+        "id": "resume_03",
+        "type": "strong_ml_ai",
+        "text": "B.Tech student. Skills: Python, Pandas, NumPy, scikit-learn, XGBoost, GARCH modeling. Built a stock analysis chatbot combining technical indicators (RSI, MACD) with machine learning predictions. Comfortable with time-series forecasting and financial data analysis."
+    },
+    {
+        "id": "resume_04",
+        "type": "strong_ml_ai",
+        "text": "B.Tech Computer Engineering student. Skills: Python, ChromaDB, sentence-transformers, Ollama, LangChain basics. Currently building a RAG-based resume/job matching system with local LLM inference. Familiar with vector embeddings and semantic search concepts."
+    },
+    {
+        "id": "resume_05",
+        "type": "strong_ml_ai",
+        "text": "B.Tech Computer Engineering student. Skills: Python, Keras, CNNs, image classification, data augmentation. Built a plant disease detection model achieving 92% validation accuracy, deployed via a simple Flask API for demo purposes."
+    },
+    {
+        "id": "resume_06",
+        "type": "strong_ml_ai",
+        "text": "B.Tech student. Skills: Python, spaCy, NLTK, Hugging Face Transformers basics, text classification. Built a sentiment analysis tool for product reviews and a simple text summarization prototype using a pretrained transformer model."
+    },
+    {
+        "id": "resume_07",
+        "type": "strong_ml_ai",
+        "text": "B.Tech Computer Engineering student. Skills: Python, scikit-learn, feature engineering, model evaluation (ROC-AUC, precision/recall), Jupyter. Built a customer churn prediction model and a credit risk scoring project using structured tabular data."
+    },
+    {
+        "id": "resume_08",
+        "type": "strong_ml_ai",
+        "text": "B.Tech student. Skills: Python, Reinforcement Learning basics (Q-learning), OpenAI Gym, Matplotlib. Built a simple game-playing agent for a grid-world environment as a personal research project."
+    },
+    {
+        "id": "resume_09",
+        "type": "strong_swe",
+        "text": "B.Tech Computer Engineering student. Skills: Python, Django, PostgreSQL, Docker, Git, REST API design. Built and deployed a full-stack civic complaint reporting system with role-based authentication, JWT tokens, and notification workflows."
+    },
+    {
+        "id": "resume_10",
+        "type": "strong_swe",
+        "text": "B.Tech student. Skills: Java, Spring Boot, MySQL, REST APIs, Postman. Built a hostel management system as a college project with role-based access for students, wardens, and admins. Comfortable with microservice-style backend design."
+    },
+    {
+        "id": "resume_11",
+        "type": "strong_swe",
+        "text": "B.Tech Computer Engineering student. Skills: JavaScript, Node.js, Express, MongoDB, React. Built a full-stack e-commerce clone with cart, checkout, and admin dashboard. Familiar with JWT authentication and RESTful API design."
+    },
+    {
+        "id": "resume_12",
+        "type": "strong_swe",
+        "text": "B.Tech student. Skills: Python, Flask, SQLite, HTML/CSS, JavaScript. Built a smart attendance system using face recognition, with separate dashboards for admin, teacher, and student roles. Comfortable with basic deployment on Render/Railway."
+    },
+    {
+        "id": "resume_13",
+        "type": "strong_swe",
+        "text": "B.Tech Computer Engineering student. Skills: TypeScript, React, Next.js, Tailwind CSS, Firebase. Built a personal finance tracker web app with authentication, charts, and real-time database syncing."
+    },
+    {
+        "id": "resume_14",
+        "type": "strong_swe",
+        "text": "B.Tech student. Skills: Python, FastAPI, PostgreSQL, Docker, GitHub Actions (basic CI/CD). Built and containerized a small inventory management API with automated tests."
+    },
+    {
+        "id": "resume_15",
+        "type": "strong_swe",
+        "text": "B.Tech Computer Engineering student. Skills: C#, ASP.NET, SQL Server, Angular. Built a college event management system with admin approval workflows during an academic project."
+    },
+    {
+        "id": "resume_16",
+        "type": "strong_swe",
+        "text": "B.Tech student. Skills: Python, Flask, AWS S3, basic EC2 deployment, Git. Deployed a simple file-sharing web app on AWS as a personal learning project."
+    },
+    {
+        "id": "resume_17",
+        "type": "weak_unrelated",
+        "text": "B.Tech Computer Engineering student. Skills: HTML, CSS, WordPress, basic PHP. Built two static websites for local businesses using WordPress themes. No backend, database, or machine learning experience."
+    },
+    {
+        "id": "resume_18",
+        "type": "weak_unrelated",
+        "text": "B.Tech student. Skills: MS Office, basic HTML. Completed a college assignment building a personal portfolio webpage. Limited programming exposure, mostly coursework-based."
+    },
+    {
+        "id": "resume_19",
+        "type": "weak_unrelated",
+        "text": "B.Tech student. Skills: C, C++ (academic level only). Completed standard coursework in data structures and algorithms. No project or internship experience listed."
+    },
+    {
+        "id": "resume_20",
+        "type": "weak_unrelated",
+        "text": "B.Tech Electronics student. Skills: Arduino, basic circuit design, MATLAB. Built a hardware-based home automation project. Minimal software development or programming experience."
+    },
+    {
+        "id": "resume_21",
+        "type": "weak_unrelated",
+        "text": "B.Tech student. Skills: Photoshop, Canva, basic video editing. Managed social media content for a college club. No programming or technical development experience."
+    },
+    {
+        "id": "resume_22",
+        "type": "weak_unrelated",
+        "text": "B.Tech student. Skills: Tally, basic accounting, MS Excel. Assisted with bookkeeping for a family business over a summer break. No software development background."
+    },
+    {
+        "id": "resume_23",
+        "type": "mid_level_partial",
+        "text": "B.Tech student. Skills: Python, basic Pandas, SQL. Completed an online course in data analysis but has not yet built an independent project. Familiar with Excel-based reporting from a college internship."
+    },
+    {
+        "id": "resume_24",
+        "type": "mid_level_partial",
+        "text": "B.Tech Computer Engineering student. Skills: C++, Data Structures, competitive programming (Codeforces rating 1600+). Strong problem-solving foundation but no web development, ML, or deployed project experience yet."
+    },
+    {
+        "id": "resume_25",
+        "type": "mid_level_partial",
+        "text": "B.Tech student. Skills: Python, basic OpenCV, Matplotlib. Completed a semester project on simple image filtering (edge detection, blurring) but has not worked with deep learning frameworks like TensorFlow or PyTorch."
+    },
+    {
+        "id": "resume_26",
+        "type": "mid_level_partial",
+        "text": "B.Tech Computer Engineering student. Skills: Java, basic Android development (XML layouts, Activities). Built one small to-do list app. No backend, API, or cloud deployment experience."
+    },
+    {
+        "id": "resume_27",
+        "type": "mid_level_partial",
+        "text": "B.Tech student. Skills: Python, Flask basics, HTML/CSS. Completed a bootcamp module on building simple CRUD apps but hasn't deployed any project independently yet."
+    },
+    {
+        "id": "resume_28",
+        "type": "mid_level_partial",
+        "text": "B.Tech Computer Engineering student. Skills: SQL, basic Python, Excel. Worked on a college database design project (ER diagrams, normalization) but limited hands-on coding experience beyond queries."
+    },
+    {
+        "id": "resume_29",
+        "type": "mid_level_partial",
+        "text": "B.Tech student. Skills: Python, basic Django tutorial-level knowledge, Git. Followed several online tutorials to build a blog app but has not built anything original yet."
+    },
+    {
+        "id": "resume_30",
+        "type": "mid_level_partial",
+        "text": "B.Tech Computer Engineering student. Skills: JavaScript basics, HTML/CSS, jQuery. Built simple interactive webpages during coursework, no framework (React/Vue) experience yet."
+    },
+    {
+        "id": "resume_31",
+        "type": "specialized_niche",
+        "text": "B.Tech student. Skills: Excel, SQL, Power BI, Tableau basics. Completed a college project analyzing regional sales trends for a local retailer, including dashboard creation and trend visualization."
+    },
+    {
+        "id": "resume_32",
+        "type": "specialized_niche",
+        "text": "B.Tech Computer Engineering student. Skills: Python, NLP basics (NLTK), intent classification, regex-based text processing. Built the NLP query engine for a job-market analytics platform, handling user intent detection and fuzzy matching."
+    },
+    {
+        "id": "resume_33",
+        "type": "specialized_niche",
+        "text": "B.Tech student. Skills: Linux, Docker, Kubernetes basics, Jenkins, shell scripting. Set up a basic CI/CD pipeline for a personal project as part of a DevOps-focused elective course."
+    },
+    {
+        "id": "resume_34",
+        "type": "specialized_niche",
+        "text": "B.Tech Computer Engineering student. Skills: Solidity basics, Ethereum, Web3.js, smart contract fundamentals. Built a simple voting dApp as a blockchain elective project."
+    },
+    {
+        "id": "resume_35",
+        "type": "specialized_niche",
+        "text": "B.Tech student. Skills: Python, AWS fundamentals (EC2, S3, Lambda basics), basic Terraform. Completed a cloud computing certification course and deployed a simple serverless function."
+    },
+    {
+        "id": "resume_36",
+        "type": "out_of_domain",
+        "text": "B.Tech Mechanical Engineering student. Skills: AutoCAD, SolidWorks, thermodynamics, manufacturing processes. Completed an internship at a local manufacturing plant focused on process optimization."
+    },
+    {
+        "id": "resume_37",
+        "type": "out_of_domain",
+        "text": "B.Tech Civil Engineering student. Skills: AutoCAD, structural analysis, STAAD Pro, project estimation. Worked on a site survey internship during summer break."
+    },
+    {
+        "id": "resume_38",
+        "type": "out_of_domain",
+        "text": "MBA student specializing in Marketing. Skills: Market research, social media strategy, Google Analytics, basic Excel. Completed a summer internship in digital marketing at a startup."
+    },
+    {
+        "id": "resume_39",
+        "type": "out_of_domain",
+        "text": "B.Com student. Skills: Financial accounting, Tally, GST filing, MS Excel. Assisted a CA firm with basic bookkeeping and tax filing tasks during an internship."
+    },
+    {
+        "id": "resume_40",
+        "type": "out_of_domain",
+        "text": "B.Tech Electrical Engineering student. Skills: Power systems analysis, MATLAB/Simulink, PLC programming basics. Worked on a substation monitoring project during a college internship."
+    }
+]
